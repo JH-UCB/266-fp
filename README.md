@@ -125,7 +125,8 @@
 │   ├── 1-2 Data Engineering
 │   │   ├── 1_0_Lexical_Complexity_Dataset_Functional_Test_MVP_FINAL.ipynb
 │   │   ├── 2_0_Dataset_Preparation_with_Original_Split_Balance_FINAL.ipynb
-│   │   └── 2_1_Dataset_Preparation_with_Re_balanced_Split_FINAL_ipynb.ipynb
+│   │   ├── 2_1_Dataset_Preparation_with_Re_balanced_Split_FINAL_ipynb.ipynb
+│   │   └── Feature Engineering Table.png
 │   ├── 3_0 Baselines
 │   │   ├── 3_0_1_Naive_Bayes_Baseline_Original_Dataset_FINAL.ipynb
 │   │   └── 3_0_2_Naive_Bayes_Baseline_Re_Balanced_Dataset_FINAL.ipynb
@@ -162,6 +163,10 @@
 │   ├── 4_0 Training Results Log Parser
 │   │   └── 4_0_Model_Training_Results,_Log_File_Parsing_and_High_Level_Analysis_FINAL.ipynb
 │   ├── 5_0 Visualizations
+│   │   └── 5_0_Report_Analysis_and_Visualizations.ipynb
+│   ├── 6_0 Error Analysis
+│   │   ├── 6_0_1_Model_Evaluation_and_Error_Analysis—Single.ipynb
+│   │   └── 6_0_2_Model_Evaluation_and_Error_Analysis—Multi.ipynb
 │   ├── Optional—Notebook PDF Versions
 │   │   ├── 1_0_Lexical_Complexity_Dataset_Functional_Test_MVP_FINAL.pdf
 │   │   ├── 2_0_Dataset_Preparation_with_Original_Split_Balance_FINAL.pdf
@@ -196,17 +201,26 @@
 │   │   ├── 3_3_1 5 e, 8 bs, 256 ml, 0.1 wd, 1e-5 lr.pdf
 │   │   ├── 3_4  25 e, 16 bs, 256 ml, 0.1 wd, 1e-5 lr.pdf
 │   │   ├── 3_5 Configuration Refinement.pdf
-│   │   └── 4_0_Model_Training_Results,_Log_File_Parsing_and_High_Level_Analysis_FINAL.pdf
+│   │   ├── 4_0_Model_Training_Results,_Log_File_Parsing_and_High_Level_Analysis_FINAL.pdf
+│   │   ├── 5_0_Report_Analysis_and_Visualizations.pdf
+│   │   ├── 6_0_1_Model_Evaluation_and_Error_Analysis—Single_FINAL.pdf
+│   │   └── 6_0_2_Model_Evaluation_and_Error_Analysis—Multi_FINAL.pdf
 │   └── pdf_converter
 │       └── nbconvert.sh
 ├── paper
+│   └── Fine-Tuning BERT-based Models for Lexical Complexity Prediction.pdf
 └── results
+    ├── Naive Bayes Baseline with Re-Balanced Data Splits.png
+    ├── Naive Bayes Baseline with SemEval Balance.png
+    ├── Performance over Baseline Metrics with Point Change.xlsx
+    ├── Single and Multi Grouped Metrics for bert-base, bert-large, modernbert-base, and modernbert-large.png
+    ├── Subcorpus Misclassification and KL Divergence of Predictions in Embedded Space.png
     ├── all_models_experiment_results_2025-04-11T15_09_24.583184-07_00.xlsx
     ├── bert_vs_modernbert_multi_grouped_avg_metrics_performance_table.xlsx
     ├── bert_vs_modernbert_single_grouped_avg_metrics_performance_table.xlsx
     └── dataset_eda_sentence_span_analysis.csv
 
-39 directories, 163 files
+40 directories, 176 files
 
 
 ```
