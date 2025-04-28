@@ -1,8 +1,4 @@
-# Directory Structure
-
-```
-
- .
+.
 ├── README.md
 ├── data
 │   ├── 0 external
@@ -227,7 +223,3 @@
 └── tree.txt
 
 43 directories, 179 files
-
-
-```
-
